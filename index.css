@@ -1,0 +1,30 @@
+:root {
+  --background-color: #eee;
+  --max-screen-width: 80ch;
+  font-size: 13px;
+}
+
+body {
+  background-color: var(--background-color);
+  font-family: "JetBrains Mono", monospace;
+  line-height: 1.5rem;
+  max-width: var(--max-screen-width);
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.horizontal-nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  color: #ddd;
+  background-color: #ddd;
+}
